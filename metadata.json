@@ -1,0 +1,6 @@
+{
+  "name": "CourseMentor AI",
+  "description": "Global AI-Powered Learning, Course Discovery & Career Guidance Platform. Discover vetted courses, get personalized AI mentorship, build career roadmaps, and track certificates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

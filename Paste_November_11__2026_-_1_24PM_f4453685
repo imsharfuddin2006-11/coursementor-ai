@@ -1,0 +1,1617 @@
+# COURSEMENTOR AI
+# ULTIMATE MASTER DEVELOPMENT PROMPT
+## Global AI-Powered Learning, Course Discovery, Skill Development & Career Guidance Ecosystem
+
+==================================================
+1. YOUR ROLE AND RESPONSIBILITY
+==================================================
+
+Act as an elite product development team consisting of:
+
+- Senior Full-Stack Software Architect
+- Senior Frontend Engineer
+- Senior Backend Engineer
+- AI/ML Engineer
+- Gemini AI Integration Specialist
+- Database Architect
+- Premium UI/UX Designer
+- Product Designer
+- Cybersecurity Engineer
+- EdTech Product Strategist
+- QA and Automation Engineer
+
+Your responsibility is to upgrade, develop, and deliver a complete, premium, scalable, functional global EdTech platform named COURSEMENTOR AI.
+
+IMPORTANT:
+I ALREADY HAVE AN EXISTING COURSEMENTOR AI WEBSITE.
+
+You MUST work on the existing project.
+
+DO NOT create a new project.
+DO NOT restart the application from scratch.
+DO NOT remove existing working features.
+DO NOT replace the existing working Gemini chatbot.
+DO NOT delete existing database records.
+DO NOT unnecessarily change working configurations.
+
+First inspect the complete existing codebase, understand its architecture, identify existing functionality, and then implement improvements incrementally.
+
+Preserve the existing CourseMentor AI identity while transforming it into a world-class international EdTech product.
+
+Do not merely generate a design or presentation.
+
+Build actual working functionality.
+
+==================================================
+2. PRODUCT IDENTITY
+==================================================
+
+Product Name: CourseMentor AI
+
+Tagline:
+"Discover Your Path. Learn with Purpose. Build Your Future."
+
+Alternative Homepage Headline:
+"Learn Anything. Build Every Skill. Shape Your Future."
+
+Product Type:
+Global AI-Powered EdTech and Career Guidance Platform.
+
+MISSION:
+
+Help students and lifelong learners discover suitable online courses, develop valuable skills, receive personalized AI mentorship, and achieve their educational and career goals.
+
+VISION:
+
+Build a trusted global destination where anyone can discover learning opportunities, choose the right career path, develop professional skills, and track their learning journey.
+
+TARGET USERS:
+
+- School students
+- College students
+- University graduates
+- Job seekers
+- Working professionals
+- Career switchers
+- Beginners
+- Entrepreneurs
+- Lifelong learners
+
+TARGET MARKET:
+Worldwide.
+
+Support international users, currencies, languages, time zones, and regional course availability.
+
+==================================================
+3. CORE VALUE PROPOSITION
+==================================================
+
+CourseMentor AI must solve these problems:
+
+1. Students cannot easily find suitable courses.
+2. Students do not know which platform to trust.
+3. Students struggle to choose the right career.
+4. Students cannot identify the skills they need.
+5. Students struggle to find free learning opportunities.
+6. Students do not understand certificate conditions.
+7. Students cannot compare different courses easily.
+8. Students need help with enrollment.
+9. Students need personalized learning roadmaps.
+10. Students struggle to complete their learning journeys.
+
+The platform must provide a unified solution.
+
+A student should be able to:
+
+DISCOVER → EXPLORE → GET GUIDANCE → CHOOSE → ENROLL → LEARN → COMPLETE → GROW.
+
+==================================================
+4. TECHNOLOGY STACK
+==================================================
+
+Preserve the existing technology stack wherever possible.
+
+Preferred architecture:
+
+Frontend:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide icons
+
+Backend:
+- Node.js
+- Express.js
+- REST APIs
+
+Database:
+- MongoDB Atlas
+- Mongoose
+
+Authentication:
+- Firebase Authentication
+
+AI:
+- Gemini API
+
+Search:
+- MongoDB Search
+- Text indexing
+- Advanced filtering
+
+Vector Search:
+- MongoDB Atlas Vector Search where configured.
+
+File Storage:
+- Firebase Storage or Cloudinary.
+
+Deployment:
+- Vercel for frontend.
+- Render or another compatible backend hosting service.
+
+Version Control:
+- GitHub.
+
+IMPORTANT:
+
+Before changing technologies, inspect the current project.
+
+Do not migrate a working project to a completely different framework without a technical reason.
+
+Never expose secret API keys in frontend code.
+
+Use environment variables.
+
+Provide .env.example.
+
+==================================================
+5. PREMIUM BRANDING AND UI/UX
+==================================================
+
+Redesign the entire user experience to look like a premium international SaaS startup.
+
+DESIGN DIRECTION:
+
+- Premium
+- Minimal
+- Futuristic
+- Modern
+- Elegant
+- Professional
+- Spacious
+- Interactive
+- Student-friendly
+
+COLOR PALETTE:
+
+Primary Navy: #101827
+Primary Blue: #3B82F6
+Violet: #8B5CF6
+Background: #F8FAFC
+White: #FFFFFF
+Text: #111827
+Secondary Text: #64748B
+
+DESIGN REQUIREMENTS:
+
+- Premium typography.
+- Consistent spacing.
+- Beautiful course cards.
+- Elegant buttons.
+- Sophisticated shadows.
+- Subtle gradients.
+- Smooth micro-interactions.
+- High-quality images.
+- Beautiful icons.
+- Attractive illustrations.
+- Clean navigation.
+- Premium dashboard layouts.
+- Excellent mobile responsiveness.
+
+Use light and dark themes.
+
+Avoid:
+- Generic website templates.
+- Excessive gradients.
+- Excessive animations.
+- Unnecessary decorative elements.
+- Inconsistent layouts.
+- Fake buttons.
+- Empty sections.
+- Poor typography.
+
+Every page must feel like part of the same professional product.
+
+==================================================
+6. COMPLETE WEBSITE ROUTES
+==================================================
+
+PUBLIC PAGES:
+
+/
+Homepage.
+
+/explore
+Course marketplace.
+
+/courses/[id]
+Course details.
+
+/categories
+All learning categories.
+
+/categories/[slug]
+Category details.
+
+/providers
+Global provider directory.
+
+/providers/[slug]
+Provider profile.
+
+/skills
+Global skills explorer.
+
+/skills/[slug]
+Individual skill details.
+
+/mentor
+AI Personal Mentor.
+
+/careers
+Career explorer.
+
+/careers/[slug]
+Career details.
+
+/compare
+Course comparison.
+
+/about
+About the platform.
+
+/contact
+Contact and support.
+
+/faq
+Frequently asked questions.
+
+/login
+Login.
+
+/register
+Registration.
+
+/forgot-password
+Password recovery.
+
+STUDENT DASHBOARD:
+
+/dashboard
+Overview.
+
+/dashboard/profile
+Personal profile.
+
+/dashboard/my-courses
+Learning collection.
+
+/dashboard/saved-courses
+Saved courses.
+
+/dashboard/roadmap
+Personalized learning roadmap.
+
+/dashboard/certificates
+Certificate vault.
+
+/dashboard/progress
+Learning analytics.
+
+/dashboard/settings
+Account settings.
+
+/dashboard/notifications
+Notifications.
+
+ADMIN DASHBOARD:
+
+/admin
+Admin overview.
+
+/admin/courses
+Course management.
+
+/admin/providers
+Provider management.
+
+/admin/categories
+Category management.
+
+/admin/skills
+Skill management.
+
+/admin/careers
+Career management.
+
+/admin/users
+User management.
+
+/admin/reports
+Analytics and reports.
+
+/admin/reviews
+Feedback management.
+
+/admin/settings
+Platform settings.
+
+Protect all private routes.
+
+Implement proper server-side role authorization.
+
+==================================================
+7. PREMIUM HOMEPAGE
+==================================================
+
+Completely redesign the homepage.
+
+The homepage should immediately communicate that CourseMentor AI is a global learning and career guidance platform.
+
+SECTION 1: PREMIUM NAVBAR
+
+Include:
+
+- CourseMentor AI logo
+- Home
+- Explore Courses
+- Categories
+- Learning Providers
+- Skills
+- AI Mentor
+- Career Guidance
+- Login
+- Get Started
+
+Add responsive navigation.
+
+SECTION 2: HERO
+
+Headline:
+
+"Learn Anything. Build Every Skill. Shape Your Future."
+
+Subtitle:
+
+"Discover global courses, develop in-demand skills, get personalized AI guidance, and take the next step toward your dream career."
+
+Primary CTA:
+Explore Courses.
+
+Secondary CTA:
+Talk to AI Mentor.
+
+Include:
+
+- Large premium hero typography.
+- Modern educational illustration.
+- AI-related visual elements.
+- Smart course search.
+- Search suggestions.
+- Popular search keywords.
+- Course, skill, and career search options.
+
+Search placeholder:
+
+"What do you want to learn today?"
+
+SECTION 3: TRUSTED LEARNING PROVIDERS
+
+Show a professional logo strip.
+
+Only show genuine providers.
+
+Never imply official partnerships without permission.
+
+SECTION 4: EXPLORE LEARNING CATEGORIES
+
+Show attractive category cards.
+
+Include View All Categories.
+
+SECTION 5: FEATURED GLOBAL PROVIDERS
+
+Show provider cards with logos, descriptions, domains, and official links.
+
+SECTION 6: FEATURED COURSES
+
+Display attractive course cards.
+
+SECTION 7: FREE LEARNING HUB
+
+Headline:
+
+"Learn More. Spend Less."
+
+Show:
+- Free courses.
+- Free learning platforms.
+- Free certificate opportunities.
+- Free professional training.
+- Free practical resources.
+
+Clearly separate free course access from free certificates.
+
+SECTION 8: AI PERSONAL MENTOR
+
+Headline:
+
+"Your Personal Learning Mentor, Available Anytime."
+
+Show an interactive chatbot preview.
+
+SECTION 9: CAREER EXPLORER
+
+Show popular career opportunities and learning paths.
+
+SECTION 10: POPULAR SKILLS
+
+Show trending skills and related courses.
+
+SECTION 11: PERSONALIZED LEARNING ROADMAPS
+
+Show example learning journeys.
+
+SECTION 12: STUDENT SUCCESS
+
+Display real student testimonials only when genuine reviews exist.
+
+Use clearly labeled sample content during development.
+
+SECTION 13: FINAL CTA
+
+Headline:
+
+"Your Next Opportunity Starts With One Skill."
+
+Buttons:
+Explore Courses.
+Meet Your AI Mentor.
+
+SECTION 14: PREMIUM FOOTER
+
+Include:
+
+- Platform
+- Explore
+- Categories
+- Providers
+- Skills
+- AI Mentor
+- Careers
+- Support
+- Privacy
+- Terms
+- Social media.
+
+==================================================
+8. GLOBAL LEARNING PROVIDER DIRECTORY
+==================================================
+
+Create a comprehensive provider ecosystem.
+
+GLOBAL EDUCATION PLATFORMS:
+
+1. Coursera
+2. edX
+3. Udemy
+4. FutureLearn
+5. Alison
+6. Saylor Academy
+7. OpenLearn
+8. MIT OpenCourseWare
+9. Harvard CS50
+10. LinkedIn Learning
+11. Pluralsight
+12. Codecademy
+13. SoloLearn
+
+TECHNOLOGY AND PROFESSIONAL SKILLS:
+
+14. IBM SkillsBuild
+15. Cisco Networking Academy
+16. Cisco Skills for All
+17. AWS Skill Builder
+18. Google Cloud Skills Boost
+19. Microsoft Learn
+20. Salesforce Trailhead
+21. Oracle University
+22. NVIDIA Deep Learning Institute
+23. SAP Learning
+24. GitHub Skills
+25. freeCodeCamp
+26. Kaggle Learn
+27. HP LIFE
+
+INDIA AND INTERNATIONAL PROVIDERS:
+
+28. NPTEL
+29. SWAYAM
+30. Infosys Springboard
+31. TCS iON
+32. Simplilearn
+33. Great Learning Academy
+
+Also investigate SkillsLearn.in and add it only after verifying its identity, official website, and actual learning offerings.
+
+Support adding more providers through the admin panel.
+
+PROVIDER PROFILE:
+
+Each provider page should show:
+
+- Official logo.
+- Provider name.
+- Description.
+- Official website.
+- Learning domains.
+- Available courses.
+- Free learning options.
+- Paid learning options.
+- Certificate conditions.
+- Learning format.
+- Regional availability.
+- Last verification date.
+- Explore courses button.
+
+Never invent provider logos, course details, certificate conditions, or partnerships.
+
+Use official APIs, authorized integrations, permitted feeds, or manually verified records.
+
+Do not assume all providers offer unrestricted APIs.
+
+==================================================
+9. EXPANDED COURSE CATEGORIES
+==================================================
+
+Create a dynamic category system with 25 main categories.
+
+1. ARTIFICIAL INTELLIGENCE
+   - Generative AI
+   - Prompt Engineering
+   - Large Language Models
+   - AI Agents
+   - Applied AI
+   - Responsible AI
+
+2. MACHINE LEARNING
+   - Deep Learning
+   - Natural Language Processing
+   - Computer Vision
+   - Reinforcement Learning
+
+3. DATA SCIENCE
+   - Data Analytics
+   - Statistics
+   - Data Visualization
+   - Big Data
+
+4. PROGRAMMING
+   - Python
+   - Java
+   - C
+   - C++
+   - JavaScript
+   - TypeScript
+
+5. WEB DEVELOPMENT
+   - HTML
+   - CSS
+   - React
+   - Angular
+   - Node.js
+   - Next.js
+
+6. MOBILE DEVELOPMENT
+   - Android
+   - iOS
+   - Flutter
+   - React Native
+
+7. CYBERSECURITY
+   - Ethical Hacking
+   - Network Security
+   - SOC
+   - Digital Forensics
+
+8. CLOUD COMPUTING
+   - AWS
+   - Microsoft Azure
+   - Google Cloud
+
+9. DEVOPS
+   - Docker
+   - Kubernetes
+   - CI/CD
+   - Automation
+
+10. DATABASE MANAGEMENT
+    - SQL
+    - MongoDB
+    - PostgreSQL
+    - Oracle
+
+11. NETWORKING
+    - CCNA
+    - Network Administration
+    - Routing and Switching
+
+12. BUSINESS AND MANAGEMENT
+    - Leadership
+    - Operations
+    - Strategy
+    - Business Analytics
+
+13. FINANCE AND ACCOUNTING
+    - Financial Analysis
+    - Accounting
+    - Investment
+    - Banking
+
+14. DIGITAL MARKETING
+    - SEO
+    - SEM
+    - Social Media
+    - Content Marketing
+
+15. DESIGN
+    - UI/UX
+    - Graphic Design
+    - Figma
+    - Product Design
+
+16. ENTREPRENEURSHIP
+    - Startup Development
+    - Business Planning
+    - Innovation
+
+17. PROJECT MANAGEMENT
+    - Agile
+    - Scrum
+    - PMP
+    - Product Management
+
+18. COMMUNICATION SKILLS
+    - Public Speaking
+    - Business Communication
+    - English Fluency
+
+19. HUMAN RESOURCES
+    - Recruitment
+    - HR Management
+    - HR Analytics
+
+20. ENGINEERING
+    - Mechanical
+    - Electrical
+    - Civil
+    - Electronics
+
+21. SCIENCE
+    - Physics
+    - Chemistry
+    - Biology
+    - Mathematics
+
+22. EDUCATION
+    - Teaching
+    - Educational Technology
+    - Instructional Design
+
+23. LANGUAGES
+    - English
+    - German
+    - French
+    - Spanish
+    - Japanese
+
+24. PERSONAL DEVELOPMENT
+    - Leadership
+    - Productivity
+    - Critical Thinking
+    - Time Management
+
+25. CREATIVE SKILLS
+    - Video Editing
+    - Photography
+    - Animation
+    - Content Creation
+
+Also create:
+
+Professional Certifications and Digital Credentials.
+
+Administrators must be able to add new categories and subcategories without modifying application source code.
+
+==================================================
+10. GLOBAL SKILLS EXPLORER
+==================================================
+
+Create a dedicated Global Skills Explorer.
+
+This feature is extremely important.
+
+Students should be able to explore skills independently of courses.
+
+Example skills:
+
+- Python
+- SQL
+- JavaScript
+- React
+- Generative AI
+- Prompt Engineering
+- Machine Learning
+- Excel
+- Power BI
+- AWS
+- Cybersecurity
+- Communication
+- Leadership
+- Project Management
+- UI/UX Design
+
+Each skill must have a dedicated details page.
+
+SKILL DETAILS PAGE:
+
+- Skill overview.
+- Why learn this skill?
+- Difficulty level.
+- Prerequisites.
+- Related skills.
+- Beginner courses.
+- Intermediate courses.
+- Advanced courses.
+- Free learning resources.
+- Certificate opportunities.
+- Practical projects.
+- Career opportunities.
+- AI learning roadmap.
+
+Add an AI-powered skill recommendation feature.
+
+==================================================
+11. COURSE DISCOVERY MARKETPLACE
+==================================================
+
+Build an advanced global course marketplace.
+
+COURSE FILTERS:
+
+- Free.
+- Paid.
+- Free certificate.
+- Paid certificate.
+- Beginner.
+- Intermediate.
+- Advanced.
+- Duration.
+- Language.
+- Provider.
+- Category.
+- Subcategory.
+- Skills.
+- Course format.
+- Regional availability.
+
+COURSE CARD:
+
+- Course thumbnail.
+- Title.
+- Provider.
+- Description.
+- Level.
+- Duration.
+- Language.
+- Price.
+- Currency.
+- Certificate availability.
+- Skills learned.
+- Verified status.
+- Save button.
+- Compare button.
+- Details button.
+
+COURSE DETAIL PAGE:
+
+- Full description.
+- Learning outcomes.
+- Syllabus.
+- Prerequisites.
+- Skills.
+- Provider information.
+- Price and regional conditions.
+- Certificate conditions.
+- Duration.
+- Official enrollment link.
+- Last verified date.
+- AI suitability explanation.
+
+Allow students to compare up to four courses.
+
+Add sorting, pagination, autocomplete, and search suggestions.
+
+Never falsely claim that a course is free or includes a free certificate.
+
+==================================================
+12. AI PERSONAL MENTOR
+==================================================
+
+This is the most important feature of CourseMentor AI.
+
+Preserve the existing working Gemini integration.
+
+Improve its intelligence and integrate it with the expanded learning database.
+
+AI PERSONALITY:
+
+- Friendly.
+- Intelligent.
+- Professional.
+- Encouraging.
+- Patient.
+- Helpful.
+- Student-focused.
+
+AI CAPABILITIES:
+
+1. Understand student interests.
+2. Understand educational background.
+3. Identify existing skills.
+4. Understand career goals.
+5. Understand budget.
+6. Understand available learning time.
+7. Recommend courses.
+8. Compare courses.
+9. Find free learning opportunities.
+10. Explain certificate conditions.
+11. Recommend skills.
+12. Generate learning roadmaps.
+13. Explain difficult topics.
+14. Provide career guidance.
+15. Analyze skill gaps.
+16. Suggest practical projects.
+17. Help with enrollment instructions.
+18. Support learning progress.
+
+EXAMPLE:
+
+Student:
+
+"I want to become an AI Engineer, but I don't know programming."
+
+AI Mentor:
+
+"That's absolutely fine. We can start from zero.
+
+First, let's understand your current knowledge and available study time.
+
+Your suggested learning journey:
+
+1. Programming fundamentals.
+2. Python.
+3. Mathematics for AI.
+4. Data structures.
+5. Machine Learning.
+6. Deep Learning.
+7. AI projects.
+
+I'll help you find suitable courses for each stage."
+
+CHATBOT UI:
+
+- Premium chat interface.
+- Conversation history.
+- New conversation.
+- Typing indicator.
+- Streaming responses when supported.
+- Course recommendation cards.
+- Suggested questions.
+- Copy response.
+- Retry failed request.
+- Clear chat.
+- Responsive mobile interface.
+
+AI TECHNICAL REQUIREMENTS:
+
+- Secure server-side Gemini calls.
+- Proper API error handling.
+- Request timeout.
+- Context management.
+- Input validation.
+- Rate limiting.
+- Token management.
+- Database-backed conversation history.
+- Actual course database retrieval.
+
+Use RAG where appropriate.
+
+The AI must retrieve course information before recommending specific listings.
+
+If course retrieval fails, it should still answer general educational questions.
+
+Never invent course listings, prices, links, or certificate policies.
+
+==================================================
+13. SMART RECOMMENDATION ENGINE
+==================================================
+
+Build a personalized course recommendation engine.
+
+STUDENT INPUTS:
+
+- Interests.
+- Career goal.
+- Existing skills.
+- Current experience level.
+- Budget.
+- Weekly study time.
+- Preferred language.
+- Desired certificate.
+- Preferred duration.
+
+RECOMMENDATION PROCESS:
+
+1. Analyze profile.
+2. Identify target skills.
+3. Retrieve relevant verified courses.
+4. Calculate suitability.
+5. Rank results.
+6. Generate AI explanations.
+7. Display recommendations.
+
+Suggested scoring:
+
+Career relevance: 30%
+Skill relevance: 25%
+Level suitability: 15%
+Budget suitability: 15%
+Time suitability: 10%
+Language suitability: 5%
+
+Make the weights configurable.
+
+Display a suitability score, not a fake provider rating.
+
+==================================================
+14. AI CAREER GUIDANCE
+==================================================
+
+Create a professional career exploration module.
+
+Career domains:
+
+- Technology
+- Business
+- Finance
+- Marketing
+- Design
+- Engineering
+- Science
+- Education
+- Entrepreneurship
+
+Example careers:
+
+- AI Engineer
+- Machine Learning Engineer
+- Data Scientist
+- Data Analyst
+- Full Stack Developer
+- Cybersecurity Analyst
+- Cloud Engineer
+- Business Analyst
+- Financial Analyst
+- UI/UX Designer
+- Digital Marketing Specialist
+- Product Manager
+
+Each career page should include:
+
+- Career overview.
+- Responsibilities.
+- Required skills.
+- Recommended courses.
+- Learning sequence.
+- Suggested projects.
+- Tools.
+- Entry-level preparation.
+- Related careers.
+
+Add an AI Skill Gap Analyzer.
+
+Compare existing skills with target career requirements.
+
+Generate:
+- Current skills.
+- Missing skills.
+- Skill priorities.
+- Course recommendations.
+- Learning plan.
+
+Never guarantee jobs or salaries.
+
+==================================================
+15. PERSONALIZED LEARNING ROADMAP
+==================================================
+
+Build an intelligent roadmap generator.
+
+Inputs:
+
+- Career goal.
+- Skill level.
+- Existing knowledge.
+- Available time.
+- Preferred learning style.
+
+Generate:
+
+1. Fundamentals.
+2. Beginner courses.
+3. Intermediate skills.
+4. Advanced topics.
+5. Practical projects.
+6. Portfolio development.
+7. Career preparation.
+
+Features:
+
+- Daily tasks.
+- Weekly goals.
+- Milestones.
+- Completion tracking.
+- Progress percentage.
+- Estimated duration.
+- Course links.
+- AI suggestions.
+- Edit roadmap.
+- Save roadmap.
+
+==================================================
+16. COURSE COMPARISON
+==================================================
+
+Allow up to four courses to be compared.
+
+Compare:
+
+- Provider.
+- Price.
+- Duration.
+- Difficulty.
+- Language.
+- Syllabus.
+- Skills.
+- Certificate.
+- Prerequisites.
+- Learning format.
+
+Add an AI Compare feature.
+
+AI must explain which course better suits the student's needs and why.
+
+==================================================
+17. STUDENT DASHBOARD
+==================================================
+
+Create a premium student dashboard.
+
+Sections:
+
+- Welcome greeting.
+- Profile completion.
+- Learning statistics.
+- Continue learning.
+- Recommended courses.
+- Saved courses.
+- My roadmap.
+- Course progress.
+- Completed courses.
+- Certificate vault.
+- Learning hours.
+- Learning streak.
+- Weekly targets.
+- Recent activity.
+- AI mentor.
+
+Only show actual user records.
+
+Clearly label demo data during development.
+
+==================================================
+18. CERTIFICATE VAULT
+==================================================
+
+Allow students to:
+
+- Upload certificates.
+- Add certificate title.
+- Add issuer.
+- Add course name.
+- Add completion date.
+- Add verification URL.
+- Add skills.
+- Organize certificates.
+- Download files.
+- Create shareable learning portfolio.
+
+Distinguish uploaded, verified, and unverified certificates.
+
+Do not claim independent verification without a real verification mechanism.
+
+==================================================
+19. ADMIN DASHBOARD
+==================================================
+
+Create a separate secure admin dashboard.
+
+ADMIN FEATURES:
+
+- Analytics overview.
+- User management.
+- Course management.
+- Provider management.
+- Category management.
+- Subcategory management.
+- Skills management.
+- Career management.
+- Course verification.
+- Price updates.
+- Certificate condition updates.
+- Provider link management.
+- Feedback management.
+- Reports.
+- AI usage monitoring.
+- Platform configuration.
+
+Admin must be able to:
+
+- Add.
+- Edit.
+- Delete.
+- Activate.
+- Deactivate.
+- Verify.
+- Feature.
+- Unfeature.
+
+All operations must persist in MongoDB.
+
+Implement secure server-side admin authorization.
+
+Never allow public admin registration.
+
+==================================================
+20. DATABASE ARCHITECTURE
+==================================================
+
+Use MongoDB with Mongoose.
+
+Core collections:
+
+1. users
+2. courses
+3. providers
+4. categories
+5. subcategories
+6. skills
+7. careers
+8. recommendations
+9. conversations
+10. messages
+11. roadmaps
+12. roadmapTasks
+13. savedCourses
+14. enrollments
+15. learningProgress
+16. certificates
+17. reviews
+18. reports
+19. notifications
+20. aiUsageLogs
+
+Implement:
+
+- Proper schemas.
+- Relationships.
+- Validation.
+- Timestamps.
+- Indexing.
+- Pagination.
+- Efficient queries.
+
+COURSE DATA FIELDS:
+
+- title
+- slug
+- description
+- thumbnail
+- providerId
+- categoryId
+- subcategoryId
+- skills
+- level
+- language
+- duration
+- pricing
+- currency
+- certificateInformation
+- syllabus
+- prerequisites
+- officialUrl
+- regionalAvailability
+- verificationStatus
+- lastVerifiedAt
+
+Do not delete existing data.
+
+Create safe migration scripts and seed scripts.
+
+Mark sample data as demonstration data.
+
+==================================================
+21. BACKEND API
+==================================================
+
+Create REST APIs.
+
+AUTH:
+
+POST /api/auth/register
+POST /api/auth/login
+POST /api/auth/logout
+GET /api/auth/me
+
+COURSES:
+
+GET /api/courses
+GET /api/courses/:id
+POST /api/courses
+PUT /api/courses/:id
+DELETE /api/courses/:id
+
+PROVIDERS:
+
+GET /api/providers
+GET /api/providers/:slug
+POST /api/providers
+
+CATEGORIES:
+
+GET /api/categories
+GET /api/categories/:slug
+POST /api/categories
+
+SKILLS:
+
+GET /api/skills
+GET /api/skills/:slug
+
+CAREERS:
+
+GET /api/careers
+GET /api/careers/:slug
+
+AI:
+
+POST /api/ai/chat
+POST /api/ai/recommend
+POST /api/ai/roadmap
+POST /api/ai/skill-gap
+POST /api/ai/compare
+
+ROADMAPS:
+
+POST /api/roadmaps
+GET /api/roadmaps
+GET /api/roadmaps/:id
+PUT /api/roadmaps/:id
+
+SAVED COURSES:
+
+POST /api/saved-courses
+GET /api/saved-courses
+DELETE /api/saved-courses/:id
+
+PROGRESS:
+
+POST /api/progress
+GET /api/progress
+
+CERTIFICATES:
+
+POST /api/certificates
+GET /api/certificates
+DELETE /api/certificates/:id
+
+ADMIN:
+
+GET /api/admin/analytics
+GET /api/admin/users
+GET /api/admin/reports
+
+Add authentication middleware, authorization, input validation, error handling, rate limiting, pagination, and logging.
+
+==================================================
+22. INTERNATIONAL SUPPORT
+==================================================
+
+Design the platform for global audiences.
+
+Support:
+
+- English initially.
+- Future multilingual support.
+- Currency selection.
+- Country selection.
+- Time zone awareness.
+- Regional course availability.
+- International date formats.
+- Localized content.
+
+Display course availability accurately.
+
+Do not assume every course can be accessed worldwide.
+
+==================================================
+23. SECURITY AND PRIVACY
+==================================================
+
+Implement:
+
+- Secure authentication.
+- Server-side authorization.
+- API key protection.
+- Environment variables.
+- Secure database access.
+- Input validation.
+- Output sanitization.
+- Rate limiting.
+- Secure file uploads.
+- Privacy controls.
+- Account deletion.
+- Error monitoring.
+- Session security.
+
+Follow applicable privacy requirements, including relevant GDPR obligations.
+
+Do not expose private user information.
+
+==================================================
+24. PERFORMANCE AND ACCESSIBILITY
+==================================================
+
+Ensure:
+
+- Mobile-first responsive design.
+- Optimized images.
+- Lazy loading.
+- Efficient database queries.
+- API pagination.
+- Reusable components.
+- Semantic HTML.
+- Keyboard accessibility.
+- Proper contrast.
+- Accessible forms.
+- Loading skeletons.
+- Empty states.
+- Error boundaries.
+- Fast page loading.
+
+==================================================
+25. COURSE DATA AND SEED SYSTEM
+==================================================
+
+Create development seed data for all major categories.
+
+Include a curated sample of real learning providers.
+
+Only add course listings when their official details have been checked.
+
+Store:
+
+- Source URL.
+- Provider.
+- Verification status.
+- Last checked date.
+- Price.
+- Currency.
+- Certificate conditions.
+
+Do not generate hundreds of fictional courses.
+
+Do not claim live course synchronization unless an actual integration exists.
+
+==================================================
+26. FUNCTIONAL REQUIREMENTS
+==================================================
+
+Every visible element must work.
+
+- Navigation must navigate.
+- Search must search.
+- Filters must filter.
+- Course cards must open details.
+- Save buttons must save.
+- Compare buttons must compare.
+- Login must authenticate.
+- Registration must create accounts.
+- Chatbot must use Gemini.
+- Recommendations must use actual course data.
+- Roadmaps must generate and save.
+- Dashboard must show actual user information.
+- Certificate uploads must persist.
+- Admin controls must update records.
+- Theme toggle must work.
+- Mobile navigation must work.
+
+Never use hardcoded chatbot responses as a replacement for actual AI.
+
+Never simulate successful database operations.
+
+If a service is not configured, provide an honest configuration message.
+
+==================================================
+27. TESTING AND QUALITY ASSURANCE
+==================================================
+
+Test:
+
+- Registration.
+- Login.
+- Authentication.
+- Course search.
+- Course filters.
+- Provider directory.
+- Category pages.
+- Skill explorer.
+- AI mentor.
+- Course recommendations.
+- Career guidance.
+- Roadmap generation.
+- Course comparison.
+- Certificate uploads.
+- Dashboard.
+- Admin permissions.
+- Responsive layouts.
+
+Fix:
+
+- Runtime errors.
+- Broken routes.
+- Missing imports.
+- TypeScript errors.
+- API errors.
+- Database errors.
+- Security issues.
+- Broken external links.
+- Infinite loading states.
+- Mobile UI issues.
+
+Run the production build and available automated tests.
+
+==================================================
+28. DEVELOPMENT EXECUTION STRATEGY
+==================================================
+
+IMPORTANT:
+
+Implement this project incrementally.
+
+Do not generate the entire system in one uncontrolled operation.
+
+PHASE 1:
+Audit existing code and preserve the working project.
+
+PHASE 2:
+Redesign the premium homepage and shared design system.
+
+PHASE 3:
+Expand categories and subcategories.
+
+PHASE 4:
+Build the global provider directory.
+
+PHASE 5:
+Expand course discovery and filters.
+
+PHASE 6:
+Build the Global Skills Explorer.
+
+PHASE 7:
+Upgrade Gemini AI mentor and recommendation engine.
+
+PHASE 8:
+Implement career guidance and skill gap analysis.
+
+PHASE 9:
+Implement personalized roadmaps.
+
+PHASE 10:
+Upgrade student dashboard and certificate vault.
+
+PHASE 11:
+Upgrade admin panel and database management.
+
+PHASE 12:
+Implement testing, security, optimization, and deployment.
+
+After each phase:
+
+- Review existing code.
+- Preserve completed functionality.
+- Test the new features.
+- Fix errors.
+- Update documentation.
+- Report completed and pending work.
+
+If generation limits interrupt development, continue from the last completed phase.
+
+Never restart the project unnecessarily.
+
+==================================================
+29. FINAL PRODUCT EXPECTATION
+==================================================
+
+CourseMentor AI must become a premium global EdTech ecosystem.
+
+It should combine:
+
+GLOBAL COURSE DISCOVERY
++ PROFESSIONAL SKILL EXPLORATION
++ AI PERSONAL MENTOR
++ CAREER GUIDANCE
++ SMART RECOMMENDATIONS
++ PERSONALIZED ROADMAPS
++ CERTIFICATE TRACKING
++ STUDENT DASHBOARD.
+
+The most important principle:
+
+"CourseMentor AI should not simply tell students where to find courses. It should help them understand what to learn, why to learn it, which course to choose, how to learn it, and what to do next."
+
+==================================================
+30. FIRST ACTION – START IMPLEMENTATION
+==================================================
+
+First inspect my existing CourseMentor AI project.
+
+Identify:
+- Current framework.
+- Existing routes.
+- Existing UI components.
+- Existing Gemini implementation.
+- Existing database.
+- Existing authentication.
+- Existing APIs.
+- Existing working features.
+
+Then prepare a safe implementation plan.
+
+After the audit, immediately begin implementing Phase 2.
+
+Do not stop after giving me a plan.
+
+Do not create another project.
+
+Do not remove existing working functionality.
+
+Do not replace the existing working chatbot.
+
+Build upon the existing application and transform it into a premium, professional, scalable global learning platform.
+
+At the end of each phase, provide a clear implementation report and continue to the next phase when possible.

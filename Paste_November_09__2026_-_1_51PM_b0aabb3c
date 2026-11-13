@@ -1,0 +1,1373 @@
+# MASTER DEVELOPMENT PROMPT
+# PROJECT: COURSEMENTOR AI
+## A Global AI-Powered Learning, Course Discovery & Career Guidance Platform
+
+---
+
+## 1. YOUR ROLE
+
+Act as a world-class team consisting of:
+
+- Senior Full-Stack Software Architect
+- Senior Frontend Developer
+- Senior Backend Developer
+- AI/ML Engineer
+- Gemini AI Integration Specialist
+- MongoDB Database Architect
+- UI/UX Designer
+- Product Designer
+- Cybersecurity Engineer
+- QA and Automation Engineer
+- EdTech Product Strategist
+
+Your responsibility is to design, develop, implement, test, and deliver a complete, professional, production-oriented web application called **CourseMentor AI**.
+
+Do not create a basic demo, static website, or simple landing page.
+
+Build a complete, scalable, responsive, functional AI-powered learning ecosystem.
+
+You must think like an experienced product engineering team building a real international EdTech startup.
+
+---
+
+# 2. PROJECT IDENTITY
+
+Product Name: CourseMentor AI
+
+Tagline:
+"Discover Your Path. Learn with Purpose. Build Your Future."
+
+Product Category:
+Global AI-Powered EdTech and Career Guidance Platform.
+
+Mission:
+Help students and lifelong learners discover suitable online courses, choose the right learning paths, receive personalized AI mentorship, develop professional skills, and progress toward their career goals.
+
+Vision:
+Become a trusted global platform that connects students with the right educational opportunities and intelligent learning guidance.
+
+Target Audience:
+- School students
+- College students
+- University graduates
+- Working professionals
+- Career switchers
+- Job seekers
+- Lifelong learners
+- Beginners who do not know where to start
+
+Geographic Audience:
+Worldwide.
+
+Support international users, multiple currencies, different time zones, and multilingual expansion.
+
+---
+
+# 3. CORE PROBLEM TO SOLVE
+
+Students currently struggle with:
+
+1. Finding relevant online courses.
+2. Identifying trustworthy learning platforms.
+3. Understanding which courses are suitable for beginners.
+4. Finding genuinely free courses and free certificates.
+5. Comparing courses across different providers.
+6. Understanding which skills are required for a particular career.
+7. Creating a proper learning roadmap.
+8. Knowing how to enroll in courses.
+9. Staying motivated until course completion.
+10. Organizing certificates and achievements.
+
+CourseMentor AI must solve these problems through a unified platform.
+
+The platform should behave like a personal educational mentor rather than just a course directory.
+
+---
+
+# 4. TECHNOLOGY STACK
+
+Use the following architecture:
+
+Frontend:
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide icons
+
+Backend:
+- Node.js
+- Express.js
+- REST APIs
+
+Database:
+- MongoDB Atlas
+- Mongoose
+
+Authentication:
+- Firebase Authentication
+
+AI:
+- Gemini API
+- Structured AI responses
+- Retrieval-Augmented Generation where appropriate
+- AI recommendation engine
+
+Search:
+- MongoDB text search initially
+- MongoDB Atlas Search when available
+
+Vector Search:
+- MongoDB Atlas Vector Search where configured
+
+File Storage:
+- Firebase Storage or Cloudinary
+
+Deployment:
+- Vercel for frontend
+- Render or another compatible service for backend
+
+Source Control:
+- GitHub
+
+IMPORTANT:
+Keep frontend and backend architecture clean and separate.
+
+Do not expose API keys, database credentials, Firebase private credentials, or sensitive configuration in frontend code.
+
+Use environment variables and provide a complete .env.example file.
+
+Do not assume external integrations are configured automatically. Provide setup instructions and graceful fallback states.
+
+---
+
+# 5. UI/UX DESIGN REQUIREMENTS
+
+Create a visually exceptional, premium SaaS-style interface.
+
+Design inspiration:
+- Modern AI SaaS platforms
+- Premium EdTech applications
+- Professional course marketplaces
+- Contemporary dashboard products
+
+Visual direction:
+- Premium
+- Minimal
+- Futuristic
+- Clean
+- Professional
+- Elegant
+- Highly interactive
+- Easy to understand
+
+Color palette:
+- Primary navy: #101827
+- Primary blue: #3B82F6
+- Violet: #8B5CF6
+- White: #FFFFFF
+- Background: #F8FAFC
+- Text: #111827
+- Secondary text: #64748B
+
+Use subtle gradients, elegant shadows, carefully designed cards, smooth transitions, consistent spacing, and professional typography.
+
+Avoid:
+- Excessive gradients
+- Excessive animations
+- Unnecessary visual clutter
+- Generic template appearance
+- Inconsistent card designs
+- Tiny unreadable text
+- Fake functionality
+- Broken navigation
+
+The website must work beautifully on:
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+Implement light and dark themes.
+
+Include loading skeletons, empty states, success messages, error messages, confirmation dialogs, and accessible form controls.
+
+---
+
+# 6. GLOBAL WEBSITE STRUCTURE
+
+Create the following routes and pages.
+
+PUBLIC PAGES:
+
+1. /
+   Homepage
+
+2. /explore
+   Course discovery marketplace
+
+3. /courses/[id]
+   Course details
+
+4. /categories
+   Browse course categories
+
+5. /mentor
+   AI personal mentor
+
+6. /careers
+   Career exploration
+
+7. /careers/[id]
+   Career details
+
+8. /compare
+   Course comparison
+
+9. /about
+   About the platform
+
+10. /contact
+    Contact and support
+
+11. /faq
+    Frequently asked questions
+
+12. /login
+    Student login
+
+13. /register
+    Student registration
+
+14. /forgot-password
+    Password recovery
+
+PROTECTED STUDENT PAGES:
+
+15. /dashboard
+    Student dashboard
+
+16. /dashboard/profile
+    Student profile
+
+17. /dashboard/my-courses
+    Learning collection
+
+18. /dashboard/saved-courses
+    Saved courses
+
+19. /dashboard/roadmap
+    Personalized roadmap
+
+20. /dashboard/certificates
+    Certificate portfolio
+
+21. /dashboard/progress
+    Learning analytics
+
+22. /dashboard/settings
+    Account settings
+
+ADMIN PAGES:
+
+23. /admin
+    Admin dashboard
+
+24. /admin/courses
+    Course management
+
+25. /admin/providers
+    Provider management
+
+26. /admin/categories
+    Category management
+
+27. /admin/users
+    User management
+
+28. /admin/reports
+    Platform analytics
+
+29. /admin/reviews
+    Feedback management
+
+30. /admin/settings
+    Platform settings
+
+Implement proper route protection and role-based authorization.
+
+---
+
+# 7. HOMEPAGE DESIGN
+
+Build an outstanding landing page.
+
+Section 1: Navigation Bar
+
+Include:
+- Logo
+- Home
+- Explore Courses
+- AI Mentor
+- Career Guidance
+- About
+- Login
+- Get Started
+
+Navigation must be responsive.
+
+Section 2: Hero Section
+
+Headline:
+"Your Future Starts With the Right Course."
+
+Subheading:
+"Discover global courses, get personalized AI guidance, build your learning roadmap, and move closer to your dream career."
+
+Primary CTA:
+Explore Courses
+
+Secondary CTA:
+Talk to AI Mentor
+
+Add an attractive educational illustration or abstract AI learning visual.
+
+Section 3: Smart Course Search
+
+Create a prominent search interface.
+
+Placeholder:
+"What do you want to learn today?"
+
+Support:
+- Course search
+- Skill search
+- Career search
+- Category suggestions
+- Search autocomplete
+- Recent searches
+
+Section 4: AI Mentor Introduction
+
+Headline:
+"Not Sure What to Learn? Ask Your AI Mentor."
+
+Explain how AI guides students from beginner level to career readiness.
+
+Add an interactive chatbot preview.
+
+Section 5: Explore Categories
+
+Create visually attractive category cards:
+
+- Artificial Intelligence
+- Machine Learning
+- Data Science
+- Programming
+- Web Development
+- Cybersecurity
+- Business
+- Finance
+- Marketing
+- Design
+- Communication
+- Entrepreneurship
+- Science
+- Languages
+
+Section 6: Trending Courses
+
+Show verified course listings.
+
+Section 7: How It Works
+
+Step 1: Discover your interests.
+Step 2: Talk to your AI mentor.
+Step 3: Find suitable courses.
+Step 4: Build your learning roadmap.
+Step 5: Learn and track your progress.
+
+Section 8: Career Guidance
+
+Display career paths and skill recommendations.
+
+Section 9: Why CourseMentor AI?
+
+Highlight:
+- Personalized learning
+- Global course discovery
+- AI career guidance
+- Course comparisons
+- Certificate tracking
+- Learning roadmaps
+
+Section 10: Testimonials
+
+Use clearly labeled sample testimonials only during development. Never present fictional testimonials as genuine user reviews.
+
+Section 11: FAQ
+
+Section 12: Professional Footer
+
+Include:
+- About
+- Contact
+- Privacy Policy
+- Terms of Service
+- Cookie Policy
+- Help Center
+- Social links
+
+---
+
+# 8. COURSE DISCOVERY MARKETPLACE
+
+This is one of the most important modules.
+
+Create a complete searchable course marketplace.
+
+Course categories:
+
+- Programming
+- AI and Machine Learning
+- Data Science
+- Web Development
+- Mobile Development
+- Cybersecurity
+- Cloud Computing
+- Business Management
+- Finance and Accounting
+- Digital Marketing
+- Graphic Design
+- UI/UX Design
+- Entrepreneurship
+- Communication Skills
+- Science and Engineering
+- Languages
+- Personal Development
+
+Course providers may include:
+
+- Coursera
+- edX
+- Udemy
+- FutureLearn
+- NPTEL
+- freeCodeCamp
+- Google Skills
+- Microsoft Learn
+- IBM SkillsBuild
+- Other verified providers
+
+Do not imply that every provider has an unrestricted API.
+
+Create a provider-independent course catalog that supports manually verified entries and authorized integrations.
+
+COURSE SEARCH FEATURES:
+
+- Search by title.
+- Search by skill.
+- Search by provider.
+- Search by career goal.
+- Search by category.
+- Search by keyword.
+
+FILTERS:
+
+- Free
+- Paid
+- Free certificate
+- Paid certificate
+- Beginner
+- Intermediate
+- Advanced
+- Duration
+- Language
+- Provider
+- Rating
+- Self-paced
+- Instructor-led
+
+COURSE CARD:
+
+Each card must show:
+- Course title
+- Provider logo
+- Course image
+- Short description
+- Course level
+- Duration
+- Language
+- Pricing
+- Certificate availability
+- Provider rating where verified
+- Skills learned
+- View Details button
+- Save Course button
+- Compare button
+
+COURSE DETAILS PAGE:
+
+Display:
+- Full course description
+- Provider details
+- Syllabus
+- Learning outcomes
+- Prerequisites
+- Duration
+- Course level
+- Language
+- Pricing
+- Certificate conditions
+- Official enrollment URL
+- Last verification date
+- AI suitability explanation
+
+Create an external enrollment button that directs students to the original provider.
+
+Never falsely claim that the student is enrolled or that a certificate is issued by CourseMentor AI.
+
+Important distinction:
+Free course access and free certificate availability must be separate fields.
+
+Never invent course details, provider links, prices, ratings, or certificate conditions.
+
+Use verification status:
+- Pending
+- Verified
+- Expired
+- Needs Review
+
+---
+
+# 9. AI PERSONAL MENTOR
+
+This is the primary differentiating feature.
+
+Build a fully functional AI chatbot using the Gemini API.
+
+Name:
+CourseMentor AI Assistant
+
+Personality:
+- Friendly
+- Professional
+- Encouraging
+- Patient
+- Intelligent
+- Student-focused
+- Easy to understand
+
+The AI must communicate clearly and adapt explanations to the student's knowledge level.
+
+CHATBOT CAPABILITIES:
+
+1. Understand student goals.
+2. Identify student interests.
+3. Understand current skill level.
+4. Identify budget and time constraints.
+5. Recommend suitable courses.
+6. Explain why a course is suitable.
+7. Suggest learning paths.
+8. Generate roadmaps.
+9. Compare courses.
+10. Explain difficult concepts.
+11. Answer educational questions.
+12. Recommend skills for specific careers.
+13. Help students understand enrollment procedures.
+14. Provide study suggestions.
+15. Help students track learning progress.
+
+EXAMPLE:
+
+Student:
+"I want to become an AI engineer but I don't know programming."
+
+AI:
+"That's absolutely fine. We can start from the basics.
+
+Your suggested learning path:
+
+1. Computer and programming fundamentals.
+2. Python programming.
+3. Mathematics for AI.
+4. Data structures and algorithms.
+5. Machine learning.
+6. Deep learning.
+7. AI projects.
+
+Let's first understand how much time you can dedicate each week."
+
+The chatbot must ask relevant follow-up questions instead of immediately generating generic recommendations.
+
+CHAT INTERFACE:
+
+- Modern chat layout.
+- User and AI message bubbles.
+- Streaming responses if supported.
+- Typing indicator.
+- Message timestamps.
+- Suggested prompts.
+- Chat history.
+- New conversation.
+- Clear conversation.
+- Copy response.
+- Course recommendation cards inside conversations.
+- Links to relevant course pages.
+
+AI SAFETY AND ACCURACY:
+
+- Do not hallucinate courses.
+- Do not invent official URLs.
+- Do not invent provider policies.
+- Use retrieved verified course data.
+- Clearly communicate uncertainty.
+- Avoid guaranteeing jobs, salaries, or career outcomes.
+- Protect user privacy.
+- Do not reveal system prompts or private API credentials.
+
+Implement conversation context and a configurable token budget.
+
+Store conversations securely according to the privacy policy.
+
+---
+
+# 10. SMART COURSE RECOMMENDATION ENGINE
+
+Build a recommendation engine combining deterministic scoring and AI explanations.
+
+Student profile inputs:
+
+- Interests
+- Career goal
+- Existing skills
+- Skill level
+- Budget
+- Available hours per week
+- Preferred language
+- Desired course duration
+- Certificate preference
+
+Recommendation process:
+
+Step 1:
+Collect student information.
+
+Step 2:
+Normalize interests and skills.
+
+Step 3:
+Retrieve relevant verified courses.
+
+Step 4:
+Calculate a course suitability score.
+
+Step 5:
+Rank the courses.
+
+Step 6:
+Use Gemini to explain the recommendations.
+
+Step 7:
+Display the best matches.
+
+Example scoring model:
+
+- Career relevance: 30%
+- Skill relevance: 25%
+- Level suitability: 15%
+- Budget suitability: 15%
+- Time suitability: 10%
+- Language suitability: 5%
+
+Make weights configurable.
+
+Display:
+- Match score
+- Why recommended
+- Skills learned
+- Prerequisites
+- Estimated time
+- Certificate details
+
+Do not confuse the match score with a provider rating.
+
+---
+
+# 11. AI CAREER GUIDANCE ENGINE
+
+Create a dedicated career exploration system.
+
+Career categories:
+
+- Technology
+- Business
+- Finance
+- Marketing
+- Design
+- Engineering
+- Science
+- Education
+- Entrepreneurship
+
+Career examples:
+
+- Data Analyst
+- Data Scientist
+- AI Engineer
+- Machine Learning Engineer
+- Full Stack Developer
+- Cybersecurity Analyst
+- Cloud Engineer
+- Business Analyst
+- Financial Analyst
+- Digital Marketing Specialist
+- UI/UX Designer
+- Product Manager
+
+Each career page should display:
+
+- Career overview
+- Typical responsibilities
+- Required skills
+- Recommended learning sequence
+- Relevant courses
+- Suggested projects
+- Tools to learn
+- Common entry-level qualifications
+- Further learning opportunities
+
+SKILL GAP ANALYZER:
+
+Compare:
+Student's current skills
+against
+Skills required for the selected career.
+
+Generate:
+- Existing skills
+- Missing skills
+- Recommended courses
+- Priority order
+- Learning roadmap
+
+Avoid claiming that completing a course guarantees employment.
+
+---
+
+# 12. PERSONALIZED LEARNING ROADMAP
+
+Build an intelligent roadmap generator.
+
+Inputs:
+- Target career
+- Current skill level
+- Existing knowledge
+- Available time
+- Learning preferences
+
+Generate a sequence:
+
+1. Fundamentals
+2. Beginner courses
+3. Intermediate skills
+4. Advanced learning
+5. Practical projects
+6. Portfolio development
+7. Career preparation
+
+Features:
+
+- Milestones
+- Weekly targets
+- Daily tasks
+- Completion status
+- Progress percentage
+- Estimated duration
+- Course links
+- AI suggestions
+- Update roadmap
+- Save roadmap
+
+Students must be able to edit their plans.
+
+Clearly label AI-generated duration estimates as estimates.
+
+---
+
+# 13. COURSE COMPARISON ENGINE
+
+Allow users to compare up to four courses.
+
+Comparison criteria:
+
+- Course title
+- Provider
+- Price
+- Certificate availability
+- Course level
+- Duration
+- Language
+- Syllabus
+- Prerequisites
+- Learning outcomes
+- Course format
+
+Add:
+"Ask AI to Compare"
+
+The AI should explain the differences and recommend a suitable option based on the student's goals.
+
+---
+
+# 14. STUDENT DASHBOARD
+
+Create a premium student dashboard.
+
+Include:
+
+- Personalized greeting.
+- Profile completion.
+- Learning statistics.
+- Continue learning.
+- Recommended courses.
+- Saved courses.
+- Learning roadmap.
+- Course progress.
+- Completed courses.
+- Certificate collection.
+- AI mentor access.
+- Recent activity.
+- Learning streaks.
+- Weekly goals.
+
+Dashboard statistics:
+
+- Courses saved
+- Courses in progress
+- Courses completed
+- Certificates recorded
+- Learning hours recorded
+- Roadmap progress
+
+Do not fabricate learning activity.
+
+Only show actual user records or clearly labeled sample data in demo mode.
+
+---
+
+# 15. CERTIFICATE VAULT
+
+Build a certificate management section.
+
+Allow students to:
+
+- Upload certificate files.
+- Add certificate title.
+- Add issuing organization.
+- Add course name.
+- Add completion date.
+- Add verification URL.
+- Add skills gained.
+- Organize certificates.
+- View certificate details.
+- Download their files.
+- Share a portfolio link where enabled.
+
+Implement secure file storage and file validation.
+
+Distinguish:
+- Uploaded certificate
+- Provider-verified certificate
+- Unverified certificate
+
+Do not claim independent certificate verification unless a real verification mechanism is available.
+
+---
+
+# 16. ADMIN DASHBOARD
+
+Build a separate secure admin interface.
+
+Admin features:
+
+1. Overview analytics.
+2. Total registered users.
+3. Active users.
+4. Course catalog statistics.
+5. Provider management.
+6. Course creation.
+7. Course editing.
+8. Course deletion.
+9. Category management.
+10. Course verification.
+11. User management.
+12. Feedback management.
+13. Report management.
+14. AI usage statistics.
+15. Platform configuration.
+
+COURSE MANAGEMENT:
+
+Admin can:
+- Add course.
+- Edit course.
+- Delete course.
+- Assign category.
+- Assign provider.
+- Update prices.
+- Update certificate conditions.
+- Update official URLs.
+- Set verification status.
+- Set last verified date.
+
+USER ROLES:
+
+- Student
+- Admin
+
+Use server-side role authorization.
+
+Never rely on hiding admin buttons in the frontend as the only security mechanism.
+
+Provide secure admin account initialization instructions. Do not create a public admin registration route.
+
+---
+
+# 17. DATABASE ARCHITECTURE
+
+Create MongoDB collections with proper relationships, validation, timestamps, and indexes.
+
+Collections:
+
+1. users
+2. courses
+3. providers
+4. categories
+5. skills
+6. careers
+7. recommendations
+8. conversations
+9. messages
+10. roadmaps
+11. roadmapTasks
+12. savedCourses
+13. enrollments
+14. learningProgress
+15. certificates
+16. reviews
+17. reports
+18. notifications
+19. aiUsageLogs
+
+USER MODEL:
+
+- name
+- email
+- profileImage
+- role
+- country
+- preferredLanguage
+- currency
+- interests
+- skills
+- experienceLevel
+- careerGoals
+- weeklyLearningHours
+- createdAt
+- updatedAt
+
+COURSE MODEL:
+
+- title
+- slug
+- description
+- thumbnail
+- providerId
+- categoryId
+- skills
+- level
+- language
+- duration
+- pricing
+- certificateInformation
+- syllabus
+- prerequisites
+- officialUrl
+- rating
+- verificationStatus
+- lastVerifiedAt
+- createdAt
+- updatedAt
+
+ROADMAP MODEL:
+
+- userId
+- careerGoal
+- title
+- description
+- milestones
+- tasks
+- estimatedDuration
+- progress
+- status
+- createdAt
+- updatedAt
+
+Create appropriate indexes for:
+- Course title
+- Categories
+- Provider IDs
+- Skills
+- User email
+- User ID
+- Course verification status
+
+Avoid storing duplicate user information unnecessarily.
+
+Provide schema documentation.
+
+---
+
+# 18. BACKEND API STRUCTURE
+
+Create RESTful APIs.
+
+Authentication:
+- POST /api/auth/register
+- POST /api/auth/login
+- POST /api/auth/logout
+- GET /api/auth/me
+
+Courses:
+- GET /api/courses
+- GET /api/courses/:id
+- POST /api/courses
+- PUT /api/courses/:id
+- DELETE /api/courses/:id
+
+Categories:
+- GET /api/categories
+- POST /api/categories
+
+Providers:
+- GET /api/providers
+- POST /api/providers
+
+AI:
+- POST /api/ai/chat
+- POST /api/ai/recommend
+- POST /api/ai/roadmap
+- POST /api/ai/skill-gap
+- POST /api/ai/compare
+
+Career:
+- GET /api/careers
+- GET /api/careers/:id
+
+Roadmap:
+- POST /api/roadmaps
+- GET /api/roadmaps
+- GET /api/roadmaps/:id
+- PUT /api/roadmaps/:id
+
+Saved Courses:
+- POST /api/saved-courses
+- GET /api/saved-courses
+- DELETE /api/saved-courses/:id
+
+Progress:
+- POST /api/progress
+- GET /api/progress
+
+Certificates:
+- POST /api/certificates
+- GET /api/certificates
+- DELETE /api/certificates/:id
+
+Admin:
+- GET /api/admin/analytics
+- GET /api/admin/users
+- GET /api/admin/reports
+
+Implement:
+- Request validation
+- Authentication middleware
+- Role authorization
+- Error handling
+- Rate limiting
+- Secure file upload
+- Pagination
+- Filtering
+- Sorting
+
+Document APIs.
+
+---
+
+# 19. INTERNATIONALIZATION
+
+The platform must be designed for global users.
+
+Implement an architecture supporting:
+
+- English initially.
+- Future multilingual support.
+- Currency preferences.
+- Country selection.
+- Time zone awareness.
+- International date formats.
+- Responsive localization.
+
+Do not assume every course is available in every country.
+
+Display regional availability when verified.
+
+---
+
+# 20. SECURITY AND PRIVACY
+
+Implement:
+
+- Secure authentication.
+- Server-side authorization.
+- Input validation.
+- Output sanitization.
+- Secure API configuration.
+- Environment variable protection.
+- API rate limits.
+- Secure database access.
+- File upload validation.
+- Error logging.
+- Privacy settings.
+- Account deletion.
+- Secure session management.
+
+Follow applicable privacy laws and provide privacy, terms, and cookie policy pages.
+
+Protect students from misleading course listings.
+
+Never use student data for unrelated purposes without appropriate consent.
+
+---
+
+# 21. PERFORMANCE AND ACCESSIBILITY
+
+Requirements:
+
+- Mobile-first responsive layout.
+- Lazy-loaded images.
+- Optimized images.
+- Efficient API requests.
+- Pagination.
+- Database indexes.
+- Reusable components.
+- Semantic HTML.
+- Keyboard navigation.
+- Accessible forms.
+- Meaningful loading states.
+- Good Core Web Vitals.
+- Error boundaries.
+
+Use reusable architecture and avoid unnecessary duplicated code.
+
+---
+
+# 22. DEMO DATA
+
+Create a development seed script.
+
+Add a small but diverse set of sample courses across:
+
+- Programming
+- AI and ML
+- Data Science
+- Business
+- Finance
+- Marketing
+- Design
+- Cybersecurity
+
+Use clearly marked demonstration records.
+
+Never present fictional course listings as verified live offerings.
+
+Use valid provider links only when they have been checked.
+
+Allow admin users to replace sample data with real verified listings.
+
+---
+
+# 23. FUNCTIONALITY REQUIREMENTS
+
+Every visible interactive element must work.
+
+Examples:
+
+- Navigation links must navigate.
+- Search must return relevant results.
+- Filters must actually filter.
+- Course cards must open details.
+- Save buttons must save.
+- Compare buttons must compare.
+- Login must authenticate.
+- Registration must create accounts.
+- Chatbot must call the actual Gemini API.
+- Roadmap must be generated and saved.
+- Dashboard must use actual user data.
+- Certificate upload must work.
+- Admin controls must update database records.
+- Theme toggle must work.
+- Mobile navigation must work.
+
+Never use fake buttons.
+
+Never simulate successful database operations without actual persistence.
+
+If an external service is unavailable, show an understandable setup or unavailable message rather than pretending it worked.
+
+---
+
+# 24. TESTING
+
+Create tests for:
+
+- Authentication
+- Course APIs
+- Search
+- Filtering
+- Recommendations
+- AI mentor
+- Roadmap generation
+- Dashboard
+- Certificate uploads
+- Admin permissions
+- Responsive layouts
+
+Check for:
+
+- Runtime errors
+- Broken routes
+- Missing imports
+- TypeScript errors
+- Invalid API requests
+- Database failures
+- Unauthorized access
+- Mobile layout problems
+
+Fix identified issues before marking a feature complete.
+
+---
+
+# 25. PROJECT DELIVERABLES
+
+Deliver:
+
+1. Complete frontend source code.
+2. Complete backend source code.
+3. MongoDB schemas.
+4. Authentication implementation.
+5. Gemini AI integration.
+6. AI recommendation engine.
+7. Course discovery module.
+8. Career guidance module.
+9. Learning roadmap module.
+10. Student dashboard.
+11. Certificate vault.
+12. Admin dashboard.
+13. Sample seed data.
+14. API documentation.
+15. .env.example.
+16. README.md.
+17. Installation instructions.
+18. Local development instructions.
+19. Deployment instructions.
+20. Testing instructions.
+
+---
+
+# 26. DEVELOPMENT EXECUTION STRATEGY
+
+IMPORTANT: Do not attempt to generate every module in one uncontrolled code-generation step.
+
+Develop the application in these stages:
+
+STAGE 1:
+Create the complete frontend design system, homepage, navigation, course discovery pages, and responsive layouts.
+
+STAGE 2:
+Implement authentication, backend, database connection, and course management.
+
+STAGE 3:
+Integrate Gemini API and build the functional AI personal mentor.
+
+STAGE 4:
+Implement recommendations, career guidance, and personalized learning roadmaps.
+
+STAGE 5:
+Implement student dashboard, certificate vault, and admin dashboard.
+
+STAGE 6:
+Implement external course data integrations, testing, security, and deployment.
+
+After every stage:
+- Review generated files.
+- Check the existing project structure.
+- Fix errors.
+- Test implemented features.
+- Preserve working code.
+- Do not overwrite completed modules unnecessarily.
+- Report what is complete and what remains.
+
+If output limits prevent completing a stage, continue from the last completed file without restarting the project.
+
+Never claim that an integration is working unless it has actually been configured and tested.
+
+---
+
+# 27. FINAL PRODUCT QUALITY STANDARD
+
+The final application must feel like a real premium international EdTech startup.
+
+It must be:
+
+- Visually outstanding.
+- Functionally complete for implemented features.
+- AI-powered.
+- Secure.
+- Responsive.
+- Scalable.
+- Maintainable.
+- Easy to navigate.
+- Student-friendly.
+- Suitable for future commercial launch.
+
+Prioritize genuine student value over unnecessary visual complexity.
+
+The most important principle:
+
+"CourseMentor AI must not simply tell students where courses are. It must help them understand what to learn, why to learn it, how to learn it, and what to do next."
+
+---
+
+# 28. YOUR FIRST ACTION
+
+Before writing code:
+
+1. Analyze the entire project specification.
+2. Define the architecture.
+3. Identify required external configurations.
+4. Define the complete page structure.
+5. Define reusable components.
+6. Create the implementation plan.
+
+Then immediately begin STAGE 1.
+
+Do not stop after giving me a project plan.
+
+Start creating the actual working application.
+
+When a configuration or API key is required, provide clear instructions and continue implementing everything that can be developed without it.
+
+Build CourseMentor AI as a complete, premium, global AI-powered learning and career guidance platform.
